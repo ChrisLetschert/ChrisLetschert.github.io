@@ -27,11 +27,7 @@
 	}, 100);
 
 	$('btn_cv').on('click', function () {
-		//window.open('CV.pdf', '_self');
-		var link = document.createElement("a");
-		link.download = "CV-Chris_Letschert";
-		link.href = CV.pdf;
-		link.click();
+		window.open('https://chrisletschert.github.io/CV.pdf', '_self');
 	});
 
 	/*---------------------------------------------------- */
