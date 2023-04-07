@@ -2955,12 +2955,12 @@ footer {
 
 footer a,
 footer a:visited {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 }
 
 footer a:hover,
 footer a:focus {
-	color: #FF0077;
+	/* color: #FF0077; */
 }
 
 footer .row {
