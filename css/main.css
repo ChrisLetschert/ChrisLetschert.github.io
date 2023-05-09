@@ -1575,6 +1575,12 @@ header .logo a {
 	color: #cc005f;
 }
 
+.welcome {
+    font-family: "poppins-medium", sans-serif !important;
+    font-size: 18.6px !important;
+}
+
+
 /**
  * responsive:
  * Intro
