@@ -3,169 +3,180 @@
 <!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-  <!--- basic page needs
+  <head>
+    <!--- basic page needs
    ================================================== -->
-  <meta charset="utf-8" />
-  <title>Chris Letschert</title>
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <title>Chris Letschert</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-  <!-- mobile specific metas
+    <!-- mobile specific metas
    ================================================== -->
-  <!-- CSS
+    <!-- CSS
    ================================================== -->
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/vendor.css" />
-  <!-- script
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <!-- script
    ================================================== -->
-  <script src="js/modernizr.js"></script>
+    <script src="js/modernizr.js"></script>
 
-  <!-- favicons
+    <!-- favicons
 	================================================== -->
-  <link rel="icon" type="image/png" href="" />
-</head>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+  </head>
 
-<body id="top">
-  <!-- intro section
+  <body id="top">
+    <!-- intro section
    ================================================== -->
-  <section id="intro">
-    <div class="intro-overlay"></div>
-    <div class="intro-content">
-      <div class="row">
+    <section id="intro">
+      <div class="intro-overlay"></div>
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, World.</h5>
+            <h1>I'm Chris.</h1>
+
+            <p class="intro-position">
+              <span>Software Entwickler</span>
+              <span>Informatik Student</span>
+            </p>
+
+            <h2><span class="typed-text intro-position welcome"></span></h2>
+
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >Mehr über mich</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".typed-text", {
+        strings: [
+          "Willkommen auf meiner Websiite.^800",
+          "Willkommen auf meiner Webste^500",
+          "Willkommen auf meiner Webiste^300",
+          "Willkommen auf meiner ^1000Seite^800.",
+        ],
+        smartBackspace: true,
+        typeSpeed: 80,
+        backSpeed: 70,
+      });
+    </script>
+
+    <!-- /intro -->
+
+    <!-- about section
+   ================================================== -->
+    <section id="about">
+      <div class="row section-intro">
         <div class="col-twelve">
-          <h5>Hello, World.</h5>
-          <h1>I'm Chris.</h1>
+          <h5>Über mich</h5>
 
-          <p class="intro-position">
-            <span>Software Entwickler</span>
-            <span>Informatik Student</span>
-          </p>
+          <div class="intro-info">
+            <img src="images/profile-pic.jpg" alt="Profile Picture" />
 
-          <h2><span class="typed-text intro-position welcome"></span></h2>
-
-          <a class="button stroke smoothscroll" href="#about" title="">Mehr über mich</a>
+            <p class="lead">
+              Seit 2018 bin ich staatlich geprüfter Fachinformatiker für
+              Anwendungsentwicklung. Ab hier studierte ich an der TH Köln
+              Informatik mit dem Ziel des Bachelor of Science. Hierfür fehlt
+              noch ein Praxisprojekt sowie meine Bachelor-Arbeit.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+      <!-- /section-intro -->
 
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-  <script>
-    var typed = new Typed('.typed-text', {
-      strings: [
-        "Willkommen auf meiner Websiite.^800",
-        "Willkommen auf meiner Webste^500",
-        "Willkommen auf meiner Webiste^300",
-        "Willkommen auf meiner ^1000Seite^800.",
-      ],
-      smartBackspace: true,
-      typeSpeed: 80,
-      backSpeed: 70
-    });
-  </script>
-
-  <!-- /intro -->
-
-  <!-- about section
-   ================================================== -->
-  <section id="about">
-    <div class="row section-intro">
-      <div class="col-twelve">
-        <h5>Über mich</h5>
-
-        <div class="intro-info">
-          <img src="images/profile-pic.jpg" alt="Profile Picture" />
-
-          <p class="lead">
-            Seit 2018 bin ich staatlich geprüfter Fachinformatiker
-            für Anwendungsentwicklung. Ab hier studierte ich an der TH Köln Informatik
-            mit dem Ziel des Bachelor of Science. Hierfür fehlt noch ein Praxisprojekt
-            sowie meine Bachelor-Arbeit.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- /section-intro -->
-
-    <div class="row about-content">
-      <div class="col-six tab-full">
-        <!-- <h3>Profile</h3>
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <!-- <h3>Profile</h3>
         <p>
           Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse
           in magna sint minim officia consectetur nisi commodo ea magna
           pariatur nisi cillum.
         </p>
         -->
-        <ul class="info-list">
-          <li>
-            <strong>Name:</strong>
-            <span>Christian Letschert</span>
-          </li>
-          <li>
-            <strong>Geburtstag:</strong>
-            <span>18 Dezember 1994</span>
-          </li>
-          <li>
-            <strong>Job:</strong>
-            <span>Informatik Student an der TH Köln</span>
-          </li>
-          <li>
-            <strong>Email:</strong>
-            <span>chris.letschert@gmx.de</span>
-          </li>
-        </ul>
-        <!-- /info-list -->
+          <ul class="info-list">
+            <li>
+              <strong>Name:</strong>
+              <span>Christian Letschert</span>
+            </li>
+            <li>
+              <strong>Geburtstag:</strong>
+              <span>18 Dezember 1994</span>
+            </li>
+            <li>
+              <strong>Job:</strong>
+              <span>Informatik Student an der TH Köln</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span>chris.letschert@gmx.de</span>
+            </li>
+          </ul>
+          <!-- /info-list -->
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <ul class="skill-bars">
+            <li>
+              <div class="progress percent70"><span>70%</span></div>
+              <strong>C#/.NET</strong>
+            </li>
+            <li>
+              <div class="progress percent60"><span>60%</span></div>
+              <strong>CSS3</strong>
+            </li>
+            <li>
+              <div class="progress percent40"><span>40%</span></div>
+              <strong>JQuery</strong>
+            </li>
+            <li>
+              <div class="progress percent50"><span>50%</span></div>
+              <strong>Javascript</strong>
+            </li>
+            <li>
+              <div class="progress percent50"><span>50%</span></div>
+              <strong>SQL</strong>
+            </li>
+          </ul>
+          <!-- /skill-bars -->
+        </div>
       </div>
 
-      <div class="col-six tab-full">
-        <h3>Skills</h3>
-        <ul class="skill-bars">
-          <li>
-            <div class="progress percent70"><span>70%</span></div>
-            <strong>C#/.NET</strong>
-          </li>
-          <li>
-            <div class="progress percent60"><span>60%</span></div>
-            <strong>CSS3</strong>
-          </li>
-          <li>
-            <div class="progress percent40"><span>40%</span></div>
-            <strong>JQuery</strong>
-          </li>
-          <li>
-            <div class="progress percent50"><span>50%</span></div>
-            <strong>Javascript</strong>
-          </li>
-          <li>
-            <div class="progress percent50"><span>50%</span></div>
-            <strong>SQL</strong>
-          </li>
-        </ul>
-        <!-- /skill-bars -->
+      <div class="row button-section">
+        <div class="col-twelve">
+          <!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
+          <button
+            class="#contact button stroke smoothscroll"
+            onclick="window.open('https://www.linkedin.com/in/christian-letschert-b73699226/', '_blank')"
+          >
+            Linkedin
+          </button>
+          <button
+            class="#contact button stroke smoothscroll"
+            onclick="location.href='mailto:chris.letschert@gmx.de';"
+          >
+            E-Mail
+          </button>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- /process-->
 
-    <div class="row button-section">
-      <div class="col-twelve">
-        <!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
-        <button class="#contact button stroke smoothscroll"
-          onclick="window.open('https://www.linkedin.com/in/christian-letschert-b73699226/', '_blank')">Linkedin</button>
-        <button class="#contact button stroke smoothscroll"
-          onclick="location.href='mailto:chris.letschert@gmx.de';">E-Mail</button>
-      </div>
-    </div>
-  </section>
-  <!-- /process-->
-
-  <!-- resume Section
+    <!-- resume Section
    ================================================== -->
-  <section id="resume" class="grey-section">
-    <!-- <div class="row section-intro">
+    <section id="resume" class="grey-section">
+      <!-- <div class="row section-intro">
       <div class="col-twelve">
         <h5>Résumé</h5>
         <h1>More of my credentials.</h1>
@@ -179,146 +190,150 @@
     </div>
     </section-intro-->
 
-    <div class="row resume-timeline">
-      <div class="col-twelve resume-header">
-        <h2>Arbeitserfahrung</h2>
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Arbeitserfahrung</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Ausbildung - Anwendungsentwickler</h3>
+                <p>Juli 2015 - Juli 2018</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>dialoop GmbH</h4>
+                <p>
+                  Duale Ausbildung zum Fachinformatiker der
+                  Anwendungsentwicklung. Neben dem schulischen Teil der
+                  Ausbildung lagen meine Aufgaben im Unternehmen hauptsächlich
+                  im Bereich der Webentwicklung. Im Backend wurde hauptsächlich
+                  C#.NET in Verbindung mit SQL Datenbanken verwendet. Im Bereich
+                  der Frontend-Entwicklung erlernte ich den Umgang mit HTML/CSS
+                  und Javascript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
       </div>
-      <!-- /resume-header -->
+      <!-- /resume-timeline -->
 
-      <div class="col-twelve">
-        <div class="timeline-wrap">
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <i class="fa fa-briefcase"></i>
-            </div>
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Bildung</h2>
+        </div>
+        <!-- /resume-header -->
 
-            <div class="timeline-header">
-              <h3>Ausbildung - Anwendungsentwickler</h3>
-              <p>Juli 2015 - Juli 2018</p>
-            </div>
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
 
-            <div class="timeline-content">
-              <h4>dialoop GmbH</h4>
-              <p>
-                Duale Ausbildung zum Fachinformatiker der Anwendungsentwicklung.
-                Neben dem schulischen Teil der Ausbildung lagen
-                meine Aufgaben im Unternehmen hauptsächlich im Bereich der
-                Webentwicklung. Im Backend wurde hauptsächlich C#.NET in
-                Verbindung mit SQL Datenbanken verwendet. Im Bereich der
-                Frontend-Entwicklung erlernte ich den Umgang mit HTML/CSS
-                und Javascript.
-              </p>
+              <div class="timeline-header">
+                <h3>Student der Informatik (B.Sc.)</h3>
+                <p>Oktober 2018 - heute</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>TH Köln</h4>
+                <p>
+                  Seit 2019 studiere ich an der TH im Studiengang „Allgemeine
+                  Informatik“. Natürlich konnte ich in dieser Zeit den Großteil
+                  der geforderten Leistungen, einschließlich des geforderten In-
+                  formatikprojekts bereits abschließen. Derzeit absolviere ich
+                  die zwei letzten benötigten Kurse um nächstes Jahr die
+                  Bachelor- beit beginnen und das Studium abschließen zu können.
+                </p>
+              </div>
             </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Ausbildung - Anwendungsentwickler</h3>
+                <p>Juli 2015 - Juli 2018</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Berufskolleg am Haspel</h4>
+                <p>
+                  Den schulischen Teil der Ausbildung zum Fachinformatiker für
+                  Anwendungsentwicklung konnte ich mit der Ab- schlussprüfung
+                  der IHK Wuppertal, Solingen, Remscheid mit einem
+                  Gesamtergebnis von 70/100 Punkten abschließen. Hierzu
+                  entwickelte ich im Abschlussprojekt eine Erweiterung zur
+                  PDF-Generierung aus vorhandenem HTML-Code.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Fachabitur Informatik/Technik</h3>
+                <p>Juni 2011 - Juni 2015</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Berufskolleg Technik Remscheid</h4>
+                <p>
+                  Im Bildungsgang „Dreijährige höhere Berufsfachschule für
+                  Technik“ für „staatlich geprüfte Informationstechnische
+                  Assistenten“ konnte ich in Verbindung zum bestandenen
+                  Fachabitur am Berufskolleg außerdem eine grundlegende
+                  Ausbildung zum Informationstechnischen-Assistenten
+                  absolvieren.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+          <div class="row button-section">
+            <button
+              class="button stroke smoothscroll"
+              onclick="window.open('CV.pdf', '_blank')"
+            >
+              Download CV
+            </button>
           </div>
         </div>
-        <!-- /timeline-wrap -->
+        <!-- /col-twelve -->
       </div>
-      <!-- /col-twelve -->
-    </div>
-    <!-- /resume-timeline -->
-
-    <div class="row resume-timeline">
-      <div class="col-twelve resume-header">
-        <h2>Bildung</h2>
-      </div>
-      <!-- /resume-header -->
-
-      <div class="col-twelve">
-        <div class="timeline-wrap">
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Student der Informatik (B.Sc.)</h3>
-              <p>Oktober 2018 - heute</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>TH Köln</h4>
-              <p>
-                Seit 2019 studiere ich an der TH im Studiengang „Allgemeine
-                Informatik“. Natürlich konnte ich in dieser Zeit den Großteil
-                der geforderten Leistungen, einschließlich des geforderten In-
-                formatikprojekts bereits abschließen. Derzeit absolviere ich die
-                zwei letzten benötigten Kurse um nächstes Jahr die Bachelor-
-                beit beginnen und das Studium abschließen zu können.
-              </p>
-            </div>
-          </div>
-          <!-- /timeline-block -->
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Ausbildung - Anwendungsentwickler</h3>
-              <p>Juli 2015 - Juli 2018</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Berufskolleg am Haspel</h4>
-              <p>
-                Den schulischen Teil der Ausbildung zum Fachinformatiker
-                für Anwendungsentwicklung konnte ich mit der Ab-
-                schlussprüfung der IHK Wuppertal, Solingen, Remscheid mit
-                einem Gesamtergebnis von 70/100 Punkten abschließen.
-                Hierzu entwickelte ich im Abschlussprojekt eine Erweiterung
-                zur PDF-Generierung aus vorhandenem HTML-Code.
-              </p>
-            </div>
-          </div>
-          <!-- /timeline-block -->
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Fachabitur Informatik/Technik</h3>
-              <p>Juni 2011 - Juni 2015</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Berufskolleg Technik Remscheid</h4>
-              <p>
-                Im Bildungsgang „Dreijährige höhere Berufsfachschule für
-                Technik“ für „staatlich geprüfte Informationstechnische Assistenten“
-                konnte ich in Verbindung zum bestandenen Fachabitur
-                am Berufskolleg außerdem eine grundlegende Ausbildung zum
-                Informationstechnischen-Assistenten absolvieren.
-              </p>
-            </div>
-          </div>
-          <!-- /timeline-block -->
-        </div>
-        <!-- /timeline-wrap -->
-        <div class="row button-section">
-          <button class="button stroke smoothscroll" onclick="window.open('CV.pdf', '_blank')">Download CV</button>
-        </div>
-      </div>
-      <!-- /col-twelve -->
-    </div>
-    <!-- /resume-timeline -->
-  </section>
-  <!-- /features -->
-  <!-- footer
+      <!-- /resume-timeline -->
+    </section>
+    <!-- /features -->
+    <!-- footer
    ================================================== -->
 
-  <div id="preloader">
-    <div id="loader"></div>
-  </div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
 
-  <!-- Java Script
+    <!-- Java Script
    ================================================== -->
-  <script src="js/jquery-2.1.3.min.js">
-</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
