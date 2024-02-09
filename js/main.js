@@ -72,7 +72,7 @@
 						easing: 'swing',
 						step: function (curValue) {
 							$this.text(Math.ceil(curValue));
-						}
+						},
 					});
 				});
 			}
