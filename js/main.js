@@ -104,7 +104,6 @@
       age--;
     }
 
-    // Alter in das HTML-Element eintragen
     $("#age").text(age);
   });
   /*---------------------------------------------------- */
