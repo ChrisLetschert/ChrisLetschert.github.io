@@ -1434,7 +1434,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1504,8 +1504,8 @@ header .logo a {
 	display: inline-block;
 }
 
-.intro-content .intro-position span::after {
-	content: "";
+.intro-content .intro-jobdesc span:first-of-type::after {
+	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
