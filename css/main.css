@@ -203,6 +203,13 @@ p.lead {
 	color: #888888;
 }
 
+p.nolead {
+	font-family: "lora-regular", serif;
+	font-size: 2rem;
+	line-height: 1.8;
+	color: #888888;
+}
+
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
@@ -1696,6 +1703,10 @@ header .logo a {
 	padding-left: 13rem;
 }
 
+.intro-info .nolead {
+	text-align: center;
+}
+
 .about-content {
 	position: relative;
 	text-align: left;
@@ -2281,6 +2292,10 @@ header .logo a {
 }
 
 #cta p.lead {
+	color: #6e6e6e;
+}
+
+#cta p.nolead {
 	color: #6e6e6e;
 }
 
